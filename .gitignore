@@ -1,0 +1,17 @@
+# Ignore your local environment variables (your real API keys, PUID, passwords etc.)
+.env
+
+# Ignore app-specific config folders (this is different for every client)
+config/
+
+# Ignore downloaded media content (movies, tv, music)
+media/
+
+# Ignore any temporary download folder (torrents, nzb, etc)
+downloads/
+
+# Ignore OS junk files
+.DS_Store
+
+# Ignore Docker override files (if used)
+docker-compose.override.yml
